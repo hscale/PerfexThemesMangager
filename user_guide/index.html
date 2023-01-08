@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Perfex Themes Manager Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Perfex Themes Manager&rdquo; Documentation by &ldquo;Perfexcloud&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Perfex Themes Manager&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 15/12/2022<br>
+					By: Perfexcloud<br>
+					Email: <a href="mailto:support@perfexcloud.com">support@perfexcloud.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my module. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/perfexcloud">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#systemrequirements">System Requirements</a></li>
+			<li><a href="#Installation">Upload Files & Install</a></li>
+			<li><a href="#settings">Themes settings</a></li>
+			<li><a href="#Customviews">How to custom views and theming</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			<li><a href="#">Any additional unique features that need an overview</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="#systemrequirements"><strong>A) System Requirements</strong></h3>
+		<p> • Perfex CRM version 2.3.x +</p>
+		<p> • PHP 7.4.*</p>
+		<p> • MySQL 5.1+</p>
+		
+		<hr>
+		
+		<h3 id="#Installation"><strong>B) Upload Files & Install</strong></h3>
+		<p>Login to Perfex as an Admin and go to <b>SETUP>>MODULE</b>.</p>
+		<img src="assets/images/install.png" style="width: inherit;"/>
+		<p>And upload the .ZIP file downloaded from codecanyon and click <B>Install</B>
+			After the module has been successfully installed, click on <b>Activate</b> to activate the module</p>
+
+		<hr>
+
+		<h3 id="#settings"><strong>C) Themes settings</strong></h3>
+		<p>Go to SETUP>>THEMES in menu</p>
+		<p>Just like in Modules setup, you can <b>Upload</b> new theme supported by Perfex Themes Manager and <b>Active/Deactive</b> what theme you want. One theme can active each time.</p>
+		<img src="assets/images/themesmanager.png" style="width: inherit;"/>
+
+		<hr>
+		
+		<h3 id="#Customviews"><strong>D) How to custom views and theming</strong></h3>
+		<p>When install the Perfex Themes Manager module, a blank theme auto created with name <b>"Default theme"</b> and in root folder <b>"./themes/default_theme"</b>, with copied views folder of the instance "application" folder, you can start modify the views in themes/default_theme/views like you want.</p>
+		<img src="assets/images/folder1.png" style="width: inherit;"/>
+
+		<p>So, easy for creat your own theme, just duplicate <b>"Default theme"</b> theme folder in <b>"./themes"</b>, then modify it, you can change layout html, assets like css/js and put your own code.</p>
+		<img src="assets/images/folder3.png" style="width: inherit;"/>
+
+		<p><b>Simple structure</b> of a theme support by Perfex Themes Manager, something like that:</p>
+		<img src="assets/images/folder2.png" style="width: inherit;"/>
+		
+		<p><strong>theme_slug/</strong><br>
+			<strong>- views/</strong> ==> views folder with custom and modify views code<br> 
+			<strong>- theme_slug.php</strong> ==> define theme infomation<br> 
+			<strong>- functions.php</strong> ==> some custom functions<br> 
+			<strong>- install.php</strong> ==> install script<br> 
+		</p>
+
+		<p><strong>*Notes:</strong> <i>theme_slug.php</i>  must have define: <br>
+		/*<br>
+		Theme Name: <br>
+		Description: <br>
+		Version: <br>
+		Author: <br>
+		Author URI: <br>
+		Requires at least: 2.3.* <br>
+		*/
+		</p>
+
+		<hr>
+		
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>If you don't own a license for Perfex Themes Manager, you can purchase it, <a href="https://codecanyon.net/user/perfexcloud">here</a></p>
+		<p>This theme or plugin is comprised of two parts.
+
+			(1) the PHP code and integrated HTML are licensed under the General Public
+			License (GPL). You will find a copy of the GPL in the same directory as this
+			text file.
+			
+			(2) All other parts, but not limited to the CSS code, images, and design are
+			licensed according to the terms of your purchased license.
+			
+			Read more about licensing here: http://themeforest.net/licenses</p>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this module. As I said at the beginning, I'd be glad to help you if you have any questions relating to this module. No guarantees, but I'll do my best to assist. If you have a more general question relating to the modules on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Perfexcloud</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
